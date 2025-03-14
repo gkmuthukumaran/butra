@@ -48,7 +48,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
 
         if (response.statusCode == 200) {
           var responseBody = await response.stream.bytesToString();
-          var data = json.decode(responseBody);
+          // var data = json.decode(responseBody);
 
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(content: Text('Password changed successfully')),
