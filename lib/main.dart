@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/login.dart';
 import 'screens/welcome.dart';
-import 'screens/booking.dart';
 
 void main() {
   runApp(MyApp());
