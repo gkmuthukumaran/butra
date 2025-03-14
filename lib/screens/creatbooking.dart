@@ -5,9 +5,6 @@ import 'package:http/http.dart' as http;
 import 'config.dart';
 import 'dart:convert';
 import 'session_manager.dart';
-import 'booking.dart';
-import 'booking_details.dart';
-import 'modaldialog.dart';
 
 class CreateBookingScreen extends StatefulWidget {
   final String accessToken;

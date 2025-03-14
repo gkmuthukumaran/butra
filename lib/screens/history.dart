@@ -1,9 +1,6 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'config.dart';
-import 'login.dart';
 import 'session_manager.dart';
 import 'history_details.dart';
 import 'dart:convert';

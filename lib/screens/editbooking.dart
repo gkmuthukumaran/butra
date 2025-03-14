@@ -6,7 +6,6 @@ import 'session_manager.dart';
 import 'dart:convert';
 
 import 'booking.dart';
-import 'booking_details.dart';
 
 class EditBookingScreen extends StatefulWidget {
   final Map<String, dynamic> bookingData;

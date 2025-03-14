@@ -5,8 +5,6 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'config.dart';
-import 'editbooking.dart';
-import 'booking.dart';
 
 class BookingDetailsScreen extends StatefulWidget {
   final Map<String, dynamic> booking;
